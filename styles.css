@@ -89,3 +89,36 @@ input:invalid {
 input:focus:invalid {
     border-color: black;
 }
+p {
+    font-size: 18px;
+}
+h3 {
+    font-size: 22px;
+}
+li {
+    font-weight: bold;
+    line-height: 1.5;
+}
+figcaption {
+    font-style: italic;
+}
+h1,h2,h3,h4,h5,h6 {
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#sidebar-heading {
+    font-size: 24px;
+}
+#leftmenu a {
+    color: #199175;
+}
+#leftmenu a:hover {
+    color: #116552;
+}
+tr:nth-of-type(odd) {
+    background-color: #b4ddd3;
+}
+tr:nth-of-type(even) {
+    background-color: #e0d7ef;
+}
